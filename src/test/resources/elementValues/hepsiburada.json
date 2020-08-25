@@ -1,0 +1,103 @@
+[
+  {
+    "key": "hoverMyAccount",
+    "value": "myAccount",
+    "type": "id"
+  },
+  {
+    "key": "loginButton",
+    "value": "login",
+    "type": "id"
+  },
+  {
+    "key": "userEmail",
+    "value": "txtUserName",
+    "type": "id"
+  },
+  {
+    "key": "userPassword",
+    "value": "txtPassword",
+    "type": "id"
+  },
+  {
+    "key": "submitButton",
+    "value": "btnLogin",
+    "type": "id"
+  },
+  {
+    "key": "checkAccount",
+    "value": "span[class='OldMyAccount-2BwAt']:nth-child(1)",
+    "type": "css"
+  },
+  {
+    "key": "searchInput",
+    "value": "input[class='desktopOldAutosuggestTheme-input']",
+    "type": "css"
+  },
+  {
+    "key": "searchBoxButton",
+    "value": "div[class='SearchBoxOld-buttonContainer']",
+    "type": "css"
+  },
+  {
+    "key": "returnSearchValue",
+    "value": "div[id='categorySuggestionList'] h1",
+    "type": "css"
+  },
+  {
+    "key": "bottomPagination",
+    "value": "pagination",
+    "type": "id"
+  },
+  {
+    "key": "secondPageButton",
+    "value": "a[class='page-2 ']",
+    "type": "css"
+  },
+  {
+    "key": "secondPageProducts",
+    "value": "div[class='product-detail']",
+    "type": "css"
+  },
+  {
+    "key": "productFavoriteButton",
+    "value": "div[class='Like-3B4x5'], div[class='Like-1divm'], div[class='Like-3yczz'] ",
+    "type": "css"
+  },
+  {
+    "key": "myFavoriteButton",
+    "value": "a[title='Beğendiklerim']",
+    "type": "css"
+  },
+  {
+    "key": "productName",
+    "value": "header[class='title-wrapper']> h1[id='product-name']",
+    "type": "css"
+  },
+  {
+    "key": "myFavoriteProductName",
+    "value": "div[class='product-item ']:nth-child(1) div[class='sc-brqgnP dIwHaH']",
+    "type": "css"
+  },
+  {
+    "key": "productProperty",
+    "value": "addToCart",
+    "type": "id"
+  },
+  {
+    "key": "selectedProduct",
+    "value": "div[class='sc-gipzik fcwAyf'] svg",
+    "type": "css"
+  },
+  {
+    "key": "removeSelected",
+    "value": "button[id='StickActionHeader-RemoveSelected']",
+    "type": "css"
+  },
+  {
+    "key": "deleteConfirmation",
+    "value": "button[id='DeleteConfirmationModal-ActionButton']",
+    "type": "css"
+  }
+
+]

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="89.523128">
+    <testcase classname="Website login &amp; search product &amp; Product Add Favorite &amp; Product Delete Favorite" name="User login by succesfully completing" time="28.820094">
+        <system-out><![CDATA[Given a web browser is at the home page.....................................passed
+Then hover login & signUp button............................................passed
+And the login click button..................................................passed
+Then the sees the login page................................................passed
+Then user enter email.......................................................passed
+And user enter password.....................................................passed
+And user click submit button................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Website login &amp; search product &amp; Product Add Favorite &amp; Product Delete Favorite" name="Type Samsung in the Search field at the top screen of the screen and click search" time="15.92354">
+        <system-out><![CDATA[Then Search box send key samsung............................................passed
+And Search Icon click.......................................................passed
+And confirm search..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Website login &amp; search product &amp; Product Add Favorite &amp; Product Delete Favorite" name="Scroll and go to second page" time="11.204465">
+        <system-out><![CDATA[Then scroll until find the element..........................................passed
+Then click second page button...............................................passed
+And check second page.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Website login &amp; search product &amp; Product Add Favorite &amp; Product Delete Favorite" name="Click random item" time="7.037096">
+        <system-out><![CDATA[Then click random product...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Website login &amp; search product &amp; Product Add Favorite &amp; Product Delete Favorite" name="Random clicked add product favorite" time="20.372867">
+        <system-out><![CDATA[And detail page click to favorite button....................................passed
+Then hover account button...................................................passed
+And click my favorite button................................................passed
+And check favorite product..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Website login &amp; search product &amp; Product Add Favorite &amp; Product Delete Favorite" name="Delete clicked product" time="6.165066">
+        <system-out><![CDATA[Then hover product..........................................................passed
+And select product..........................................................passed
+And remove selected product.................................................passed
+And Delete popup button.....................................................passed
+And check remove product....................................................passed
+And close page..............................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

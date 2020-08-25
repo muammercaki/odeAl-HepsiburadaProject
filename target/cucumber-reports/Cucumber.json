@@ -1,0 +1,396 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User login by succesfully completing",
+        "description": "",
+        "id": "website-login-\u0026-search-product-\u0026-product-add-favorite-\u0026-product-delete-favorite;user-login-by-succesfully-completing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17932247123,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a web browser is at the home page",
+            "match": {
+              "location": "login.aWebBrowserIsAtTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2349152414,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "hover login \u0026 signUp button",
+            "match": {
+              "location": "login.hoverLoginSignUpButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1377159852,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the login click button",
+            "match": {
+              "location": "login.theLoginClickButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4420239168,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the sees the login page",
+            "match": {
+              "location": "login.theSeesTheLoginPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2435930859,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter email",
+            "match": {
+              "location": "login.userEnterEmail()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 241376730,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter password",
+            "match": {
+              "location": "login.userEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63987437,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click submit button",
+            "match": {
+              "location": "login.userClickSubmitButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Type Samsung in the Search field at the top screen of the screen and click search",
+        "description": "",
+        "id": "website-login-\u0026-search-product-\u0026-product-add-favorite-\u0026-product-delete-favorite;type-samsung-in-the-search-field-at-the-top-screen-of-the-screen-and-click-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7680243104,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Search box send key samsung",
+            "match": {
+              "location": "Search.searchBoxSendKeySamsung()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1076653954,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Search Icon click",
+            "match": {
+              "location": "Search.searchIconClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7166642730,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "confirm search",
+            "match": {
+              "location": "Search.confirmSearch()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Scroll and go to second page",
+        "description": "",
+        "id": "website-login-\u0026-search-product-\u0026-product-add-favorite-\u0026-product-delete-favorite;scroll-and-go-to-second-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3922213671,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "scroll until find the element",
+            "match": {
+              "location": "ListProducts.scrollUntilFindTheElement()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4719723253,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click second page button",
+            "match": {
+              "location": "ListProducts.clickSecondPageButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2562527811,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "check second page",
+            "match": {
+              "location": "ListProducts.checkSecondPage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@listProducts"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Click random item",
+        "description": "",
+        "id": "website-login-\u0026-search-product-\u0026-product-add-favorite-\u0026-product-delete-favorite;click-random-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7037095545,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click random product",
+            "match": {
+              "location": "RandomProduct.clickRandomProduct()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@randomProductClick"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Random clicked add product favorite",
+        "description": "",
+        "id": "website-login-\u0026-search-product-\u0026-product-add-favorite-\u0026-product-delete-favorite;random-clicked-add-product-favorite",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6838668720,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "detail page click to favorite button",
+            "match": {
+              "location": "AddFavorite.detailPageClickToFavoriteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4394428517,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "hover account button",
+            "match": {
+              "location": "AddFavorite.hoverAccountButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6205131710,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "click my favorite button",
+            "match": {
+              "location": "AddFavorite.clickMyFavoriteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2934637893,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "check favorite product",
+            "match": {
+              "location": "AddFavorite.checkFavoriteProduct()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@randomClickedAddProductFavorite"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Delete clicked product",
+        "description": "",
+        "id": "website-login-\u0026-search-product-\u0026-product-add-favorite-\u0026-product-delete-favorite;delete-clicked-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2171334301,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "hover product",
+            "match": {
+              "location": "RemoveProduct.hoverProduct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 199481335,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "select product",
+            "match": {
+              "location": "RemoveProduct.selectProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148677004,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "remove selected product",
+            "match": {
+              "location": "RemoveProduct.removeSelectedProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113467166,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Delete popup button",
+            "match": {
+              "location": "RemoveProduct.deletePopupButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3081570145,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "check remove product",
+            "match": {
+              "location": "RemoveProduct.checkRemoveProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 450535943,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "close page",
+            "match": {
+              "location": "RemoveProduct.closePage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@deleteProductFavorite"
+          }
+        ]
+      }
+    ],
+    "name": "Website login \u0026 search product \u0026 Product Add Favorite \u0026 Product Delete Favorite",
+    "description": "",
+    "id": "website-login-\u0026-search-product-\u0026-product-add-favorite-\u0026-product-delete-favorite",
+    "keyword": "Feature",
+    "uri": "hepsiburadaSearchAndFavorite.feature"
+  }
+]
